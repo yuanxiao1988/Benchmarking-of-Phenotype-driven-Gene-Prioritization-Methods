@@ -1,0 +1,11 @@
+## LIRICAL Analysis Template.
+# These are all the possible options for running LIRICAL. Use this as a template for
+# your own set-up.
+---
+analysis:
+    genomeAssembly: hg19
+    vcf: /work/data/phenotype_software_BK/simulated_dataset/_EGAZ00001088151_ddd2_DDDP107512.20131218.vcf
+    exomiser: /work/software/phenotype_software/exomiser/exomiser-cli-12.1.0/data/2102_hg19
+    tsv: true
+hpoIds: ['HP:0006725','HP:0011678','HP:0008368','HP:0012636','HP:0004404','HP:0010176']
+prefix: /work/data/phenotype_software_BK/simulated_dataset/_EGAZ00001088151_ddd2_DDDP107512.20131218.vcf_LIRICAL
